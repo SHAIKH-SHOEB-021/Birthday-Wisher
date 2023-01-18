@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A857527D2977CE8B004C8F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857527C2977CE8B004C8F43 /* AppDelegate.swift */; };
+		A857527F2977CE8B004C8F43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857527E2977CE8B004C8F43 /* SceneDelegate.swift */; };
+		A85752812977CE8B004C8F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85752802977CE8B004C8F43 /* ViewController.swift */; };
+		A85752842977CE8B004C8F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85752822977CE8B004C8F43 /* Main.storyboard */; };
+		A85752862977CE8D004C8F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85752852977CE8D004C8F43 /* Assets.xcassets */; };
+		A85752892977CE8D004C8F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85752872977CE8D004C8F43 /* LaunchScreen.storyboard */; };
+		A85752942977CE8D004C8F43 /* Birthday_WisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85752932977CE8D004C8F43 /* Birthday_WisherTests.swift */; };
+		A857529E2977CE8D004C8F43 /* Birthday_WisherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857529D2977CE8D004C8F43 /* Birthday_WisherUITests.swift */; };
+		A85752A02977CE8D004C8F43 /* Birthday_WisherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857529F2977CE8D004C8F43 /* Birthday_WisherUITestsLaunchTests.swift */; };
+		A85752AD2977D00A004C8F43 /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85752AC2977D00A004C8F43 /* WishViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85752902977CE8D004C8F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85752712977CE8B004C8F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85752782977CE8B004C8F43;
+			remoteInfo = "Birthday Wisher";
+		};
+		A857529A2977CE8D004C8F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85752712977CE8B004C8F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85752782977CE8B004C8F43;
+			remoteInfo = "Birthday Wisher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A85752792977CE8B004C8F43 /* Birthday Wisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Wisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A857527C2977CE8B004C8F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A857527E2977CE8B004C8F43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A85752802977CE8B004C8F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A85752832977CE8B004C8F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A85752852977CE8D004C8F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85752882977CE8D004C8F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A857528A2977CE8D004C8F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A857528F2977CE8D004C8F43 /* Birthday WisherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birthday WisherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85752932977CE8D004C8F43 /* Birthday_WisherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_WisherTests.swift; sourceTree = "<group>"; };
+		A85752992977CE8D004C8F43 /* Birthday WisherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birthday WisherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A857529D2977CE8D004C8F43 /* Birthday_WisherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_WisherUITests.swift; sourceTree = "<group>"; };
+		A857529F2977CE8D004C8F43 /* Birthday_WisherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_WisherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A85752AC2977D00A004C8F43 /* WishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85752762977CE8B004C8F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A857528C2977CE8D004C8F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85752962977CE8D004C8F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85752702977CE8B004C8F43 = {
+			isa = PBXGroup;
+			children = (
+				A857527B2977CE8B004C8F43 /* Birthday Wisher */,
+				A85752922977CE8D004C8F43 /* Birthday WisherTests */,
+				A857529C2977CE8D004C8F43 /* Birthday WisherUITests */,
+				A857527A2977CE8B004C8F43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A857527A2977CE8B004C8F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85752792977CE8B004C8F43 /* Birthday Wisher.app */,
+				A857528F2977CE8D004C8F43 /* Birthday WisherTests.xctest */,
+				A85752992977CE8D004C8F43 /* Birthday WisherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A857527B2977CE8B004C8F43 /* Birthday Wisher */ = {
+			isa = PBXGroup;
+			children = (
+				A857527C2977CE8B004C8F43 /* AppDelegate.swift */,
+				A857527E2977CE8B004C8F43 /* SceneDelegate.swift */,
+				A85752802977CE8B004C8F43 /* ViewController.swift */,
+				A85752AC2977D00A004C8F43 /* WishViewController.swift */,
+				A85752822977CE8B004C8F43 /* Main.storyboard */,
+				A85752852977CE8D004C8F43 /* Assets.xcassets */,
+				A85752872977CE8D004C8F43 /* LaunchScreen.storyboard */,
+				A857528A2977CE8D004C8F43 /* Info.plist */,
+			);
+			path = "Birthday Wisher";
+			sourceTree = "<group>";
+		};
+		A85752922977CE8D004C8F43 /* Birthday WisherTests */ = {
+			isa = PBXGroup;
+			children = (
+				A85752932977CE8D004C8F43 /* Birthday_WisherTests.swift */,
+			);
+			path = "Birthday WisherTests";
+			sourceTree = "<group>";
+		};
+		A857529C2977CE8D004C8F43 /* Birthday WisherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A857529D2977CE8D004C8F43 /* Birthday_WisherUITests.swift */,
+				A857529F2977CE8D004C8F43 /* Birthday_WisherUITestsLaunchTests.swift */,
+			);
+			path = "Birthday WisherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85752782977CE8B004C8F43 /* Birthday Wisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85752A32977CE8D004C8F43 /* Build configuration list for PBXNativeTarget "Birthday Wisher" */;
+			buildPhases = (
+				A85752752977CE8B004C8F43 /* Sources */,
+				A85752762977CE8B004C8F43 /* Frameworks */,
+				A85752772977CE8B004C8F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birthday Wisher";
+			productName = "Birthday Wisher";
+			productReference = A85752792977CE8B004C8F43 /* Birthday Wisher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A857528E2977CE8D004C8F43 /* Birthday WisherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85752A62977CE8D004C8F43 /* Build configuration list for PBXNativeTarget "Birthday WisherTests" */;
+			buildPhases = (
+				A857528B2977CE8D004C8F43 /* Sources */,
+				A857528C2977CE8D004C8F43 /* Frameworks */,
+				A857528D2977CE8D004C8F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85752912977CE8D004C8F43 /* PBXTargetDependency */,
+			);
+			name = "Birthday WisherTests";
+			productName = "Birthday WisherTests";
+			productReference = A857528F2977CE8D004C8F43 /* Birthday WisherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A85752982977CE8D004C8F43 /* Birthday WisherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85752A92977CE8D004C8F43 /* Build configuration list for PBXNativeTarget "Birthday WisherUITests" */;
+			buildPhases = (
+				A85752952977CE8D004C8F43 /* Sources */,
+				A85752962977CE8D004C8F43 /* Frameworks */,
+				A85752972977CE8D004C8F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A857529B2977CE8D004C8F43 /* PBXTargetDependency */,
+			);
+			name = "Birthday WisherUITests";
+			productName = "Birthday WisherUITests";
+			productReference = A85752992977CE8D004C8F43 /* Birthday WisherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85752712977CE8B004C8F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A85752782977CE8B004C8F43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A857528E2977CE8D004C8F43 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A85752782977CE8B004C8F43;
+					};
+					A85752982977CE8D004C8F43 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A85752782977CE8B004C8F43;
+					};
+				};
+			};
+			buildConfigurationList = A85752742977CE8B004C8F43 /* Build configuration list for PBXProject "Birthday Wisher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85752702977CE8B004C8F43;
+			productRefGroup = A857527A2977CE8B004C8F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85752782977CE8B004C8F43 /* Birthday Wisher */,
+				A857528E2977CE8D004C8F43 /* Birthday WisherTests */,
+				A85752982977CE8D004C8F43 /* Birthday WisherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85752772977CE8B004C8F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85752892977CE8D004C8F43 /* LaunchScreen.storyboard in Resources */,
+				A85752862977CE8D004C8F43 /* Assets.xcassets in Resources */,
+				A85752842977CE8B004C8F43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A857528D2977CE8D004C8F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85752972977CE8D004C8F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85752752977CE8B004C8F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85752812977CE8B004C8F43 /* ViewController.swift in Sources */,
+				A85752AD2977D00A004C8F43 /* WishViewController.swift in Sources */,
+				A857527D2977CE8B004C8F43 /* AppDelegate.swift in Sources */,
+				A857527F2977CE8B004C8F43 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A857528B2977CE8D004C8F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85752942977CE8D004C8F43 /* Birthday_WisherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85752952977CE8D004C8F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A857529E2977CE8D004C8F43 /* Birthday_WisherUITests.swift in Sources */,
+				A85752A02977CE8D004C8F43 /* Birthday_WisherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85752912977CE8D004C8F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85752782977CE8B004C8F43 /* Birthday Wisher */;
+			targetProxy = A85752902977CE8D004C8F43 /* PBXContainerItemProxy */;
+		};
+		A857529B2977CE8D004C8F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85752782977CE8B004C8F43 /* Birthday Wisher */;
+			targetProxy = A857529A2977CE8D004C8F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85752822977CE8B004C8F43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85752832977CE8B004C8F43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A85752872977CE8D004C8F43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85752882977CE8D004C8F43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85752A12977CE8D004C8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A85752A22977CE8D004C8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85752A42977CE8D004C8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Wisher/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Birthday-Wisher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A85752A52977CE8D004C8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Wisher/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Birthday-Wisher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A85752A72977CE8D004C8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Birthday-WisherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthday Wisher.app/Birthday Wisher";
+			};
+			name = Debug;
+		};
+		A85752A82977CE8D004C8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Birthday-WisherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthday Wisher.app/Birthday Wisher";
+			};
+			name = Release;
+		};
+		A85752AA2977CE8D004C8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Birthday-WisherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birthday Wisher";
+			};
+			name = Debug;
+		};
+		A85752AB2977CE8D004C8F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Birthday-WisherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birthday Wisher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85752742977CE8B004C8F43 /* Build configuration list for PBXProject "Birthday Wisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85752A12977CE8D004C8F43 /* Debug */,
+				A85752A22977CE8D004C8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85752A32977CE8D004C8F43 /* Build configuration list for PBXNativeTarget "Birthday Wisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85752A42977CE8D004C8F43 /* Debug */,
+				A85752A52977CE8D004C8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85752A62977CE8D004C8F43 /* Build configuration list for PBXNativeTarget "Birthday WisherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85752A72977CE8D004C8F43 /* Debug */,
+				A85752A82977CE8D004C8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85752A92977CE8D004C8F43 /* Build configuration list for PBXNativeTarget "Birthday WisherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85752AA2977CE8D004C8F43 /* Debug */,
+				A85752AB2977CE8D004C8F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85752712977CE8B004C8F43 /* Project object */;
+}
